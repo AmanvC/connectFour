@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/AmanvC/connectFour/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmanvC/connectFour/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="12.ConnectFour.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container" align='center'>
+      <h1>Welcome to Connect Four!</h1>
+      <h2>The objective of this game is to connect four of your chips in a row.</h2>
+      <h3>Let's Start!</h3>
+      <table class='board'>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+        <tr>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+          <td><button type="button"></button></td>
+        </tr>
+      </table>
+    <script src='12.ConnectFour.js'></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
